@@ -1,3 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: 0; }
+
 h1{
   color: blue;
+}
+section {width: 100%; float:left;
+}
+
+/*header css*/
+
+nav {
+  background: rgb(133,205,202);
+  background: linear-gradient(90deg, rgba(133,205,202,1) 0%, rgba(195,141,158,0.6001751042213761) 80%);
+  width: 100%;
+  position: fixed;
+  z-index: 20;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+  nav ul li a {
+  font-size: 20px;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
+a:active,a:hover{
+  background-color: blue;
+  transition: .5s;
+}
+
+nav img{
+  height: 10%;
+  width: 10%;
+}
+
+/* første sektion */
+
+#side1{
+  background: #d6ebe5;
 }
