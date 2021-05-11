@@ -3,22 +3,24 @@
   padding: 0;
   text-decoration: 0; }
 
-h1{
-  color: blue;
-}
 section {width: 100%; float:left;
 }
 
 /*header css*/
 
-nav {
-  background: rgb(133,205,202);
-  background: linear-gradient(90deg, rgba(133,205,202,1) 0%, rgba(195,141,158,0.6001751042213761) 80%);
+.navbar {
   width: 100%;
   position: fixed;
   z-index: 20;
 }
-
+.navbar.sticky{
+  width: 100%;
+  background: rgb(18,27,38);
+  background: linear-gradient(90deg, rgba(18,27,38,1) 0%, rgba(52,75,89,0.5046393557422969) 100%);
+}
+.navbar .logo a span{
+  color: white;
+}
 nav ul {
   float: right;
   margin-right: 20px;
@@ -45,7 +47,41 @@ nav img{
   height: 10%;
   width: 10%;
 }
+.navbar ul {
+  float: right;
+  margin-right: 20px;
+}
 
+.navbar ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+  .navbar ul li a {
+  font-size: 20px;
+  padding: 7px 13px;
+  border-radius: 3px;
+}
+
+  .ul_navbar li a:active,a:hover{
+  background-color: none;
+  color: red;
+  transition: .5s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
 /* første sektion */
 
 #side1{
