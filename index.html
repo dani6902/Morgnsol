@@ -3,20 +3,22 @@
   <head>
     <meta charset="utf-8">
     <title>Mornsol klientrapport</title>
-    <link rel="stylesheet" href="https://use.typekit.net/fzj6ryy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <script src="index.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <nav class="navbar">
-        <input type="checkbox" id="check">
-          <label for="check" class="checkbtn">
-          <i class="fa fa-navicon"></i>
-          </label>
-        <img src="billeder/logo_clean.svg" alt="Mornsol logo">
+      <nav class="navbar sticky">
+        <a href="#side1">
+          <img src="billeder/logo_clean.svg" alt="Mornsol logo">
+        </a>
         <ul class="ul_navbar">
-          <li><a href="#side1">SoMe Channels</a></li>
+          <li><a href="#side1">SoMe kanaler</a></li>
           <li><a href="#side2">Hjemmeside</a></li>
           <li><a href="#side3">Fysisk produkter</a></li>
         </ul>
@@ -26,12 +28,57 @@
       <h1>Mornsol</h1>
       <img src="billeder/logo_final.svg" alt="Mornsol logo">
     </section>
+
     <section id="side2">
-      <div class="venstreside">
-        <p> her skal der stå noget infomation hvor bileldet også giver mening</p>
+      <img src="billeder/logo_final.svg" alt="fyld">
+      <div class="max-width">
+        <h2 class="title">Mine projekter</h2>
+        <div class="carousel owl-carousel">
+          <div class="kort">
+            <a href="projektglasværk.html" class="box">
+              <img src="billeder/logo_final.svg" alt="billede af Odense Glasværks logo">
+              <div class="tekst">Odense Glasværk</div>
+                <p>I samarbejde med Odense Glasværk lavede min gruppe og jeg en optimering af deres hjemmeside</p>
+            </a>
+          </div>
+          <div class="kort">
+            <a href="abtion.html"class="box">
+            <img src="#" alt="billeder af loger fra Abtion og Coop">
+            <div class="tekst">Abtion/Coop</div>
+              <p>Dette projekt viste mig hvordan det er at arbejde professionelt for en virksomhed</p>
+            </a>
+          </div>
+          <div class="kort">
+            <a href="robotnordic.html" class="box">
+              <img src="#" alt="Robot nordics logo">
+              <div class="tekst">Robot Nordic</div>
+                <p>Robot nordic gav os muligheden for at lave en brugergrænseoverflade til deres produkt</p>
+            </a>
+          </div>
+      <div class="kort">
+        <a href="hcandersen.html#pageA" class="box">
+          <img src="#" alt="sort hat h.c andersen ide">
+          <div class="tekst">H.C Andersen Museum</div>
+          <p>H.C Andersen projektet gav muligheden for at lave et produkt uden kodning</p>
+        </a>
       </div>
-      <div class="hojreside">
-        <img src="billeder/logo_final.svg" alt="Billede">
+    </div>
+</div>
+    </section>
+
+    <section id="side3">
+      <div class="max-width">
+        <h2 class="title"> SoMe kanaler</h2>
+        <div class="about-content">
+          <div class="kolonne hojre">
+            <div class="tekstommig"> SoMe </div>
+            <p>Ud over kompetencerne nævnt ovenfor, bruger jeg også meget tid på Adobe programmer som InDesign, XD, Illustrater og Photoshop. Dog er Photoshop den jeg er svagest i. Jeg har lavet baggrundene på forsiden og projekt siden i Illustrater, og føler jeg har godt styr på det program. Min portfolio og CV er lavet i InDesign derudover har jeg lavet mange rapporter i InDesign.</p>
+            <a href="#">Download CV</a>
+          </div>
+          <div class="kolonne venstre">
+            <img src="billeder/logo_final.svg" alt="billede af SoMe projkter">
+          </div>
+        </div>
       </div>
     </section>
   </body>
