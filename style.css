@@ -1,96 +1,102 @@
 * {
   margin: 0;
   padding: 0;
-  text-decoration: 0; }
-
+  text-decoration: 0;
+}
+h2{
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 section {width: 100%; float:left;
 }
 
 /*header css*/
-
-.navbar {
-  width: 100%;
+.navbar{
   position: fixed;
-  z-index: 20;
-}
-.sticky{
   width: 100%;
-  background: #85cdca;
-  background: linear-gradient(90deg, #85cdca 0%, rgba(195, 141, 158, 0.6001751042) 80%);
+  padding: 15px 0;
+  background: transition;
+  z-index: 100;
+  transition: all 1s;
 }
-
-nav ul {
-  float: right;
-  margin-right: 20px;
+.navbar.active{
+  position: fixed;
+  width: 100%;
+  padding: 15px 0;
+  background: white;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  transition: all 1s;
 }
-
-nav ul li {
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+.navbar .max-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logohead{
+  width: 70px;
+  height: 70px;
+}
+.navbar .menu{
+  margin-left: 50%;
+}
+.navbar .menu li{
+  list-style: none;
   display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
 }
-
-  nav ul li a {
-  font-size: 20px;
-  padding: 7px 13px;
-  border-radius: 3px;
+.navbar .menu li a{
+  font-family: letter-gothic-std, monospace;
+  font-weight: 700;
+  font-style: normal;
+  color: #696966;
+  margin-left: 25px;
 }
-
- .ul_navbar a:active,a:hover{
-  background-color: blue;
-  transition: .5s;
-}
-
-nav img{
-  height: 8%;
-  width: 8%;
-  margin-left: 10px;
-}
-.navbar ul {
-  float: right;
-  margin-right: 20px;
-}
-
-.navbar ul li {
-  display: inline-block;
-  line-height: 80px;
-  margin: 0 5px;
-}
-
-  .navbar ul li a {
-  font-size: 20px;
-  padding: 7px 13px;
-  border-radius: 3px;
-}
-
-  .ul_navbar li a:active,a:hover{
-  background-color: none;
-  color: red;
-  transition: .5s;
-}
-
-.checkbtn {
-  font-size: 30px;
-  float: right;
-  line-height: 80px;
-  margin-right: 40px;
-  cursor: pointer;
-  display: none;
-}
-
-#check {
-  display: none;
+.navbar .menu li a:hover{
+  text-decoration: underline;
+  font-size: 125%;
 }
 /* første sektion */
 
 #side1{
-  background: #d6ebe5;
+background: url(billeder/lysforside.png);
+background-repeat: no-repeat;
+display: flex;
+height: 100vh;
+background-size: cover;
+background-attachment: fixed;
+min-height: 500px;
 }
 
+#side1 h3{
+  font-size: 27px;
+  font-family: letter-gothic-std, monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+#side1 h2{
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+  opacity: 1.0;
+}
+.baggrundbox{
+  background:rgba(243,248,249,0.7);
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+  padding: 75px;
+}
 /* sektion 2 */
 
 #side2 {
-  background: yellow;
+  background: #fff;
 }
   .slideboxtekst{
     margin: auto;
@@ -105,6 +111,7 @@ nav img{
 }
 .wrapper {
   width: 100%;
+  z-index: 1;
 }
 
 .wrapper .carousel{
@@ -112,16 +119,19 @@ nav img{
   margin: auto;
   padding: 0 30px;
 }
-
+.carousel .card .cardpic{
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
 .carousel .card {
-  line-height: 250px;
   text-align: center;
   color: white;
-  font-size: 90px;
+  font-size: 12hz;
   font-weight: 600;
   margin: 20px 0;
-  border-radius: 10px;
+  border-radius: 40px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+  height: 500px;
 }
 .carousel .card-1{
   background: red;
