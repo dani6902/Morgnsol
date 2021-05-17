@@ -92,14 +92,16 @@ nav img{
 #side2 {
   background: yellow;
 }
+  .slideboxtekst{
+    margin: auto;
+    width: 10%;
+    margin-top: 10px;
+  }
+}
 #side2 .box {
   display: flex;
   align-items: center;
   min-height: 100vh;
-}
-#side2 h2{
-  display: flex;
-  text-align: center;
 }
 .wrapper {
   width: 100%;
@@ -153,6 +155,7 @@ nav img{
   margin: 0 5px;
   border: 2px solid black!important;
   transition: all 0.3s ease;
+  margin-bottom: 20px;
 }
 .owl-dot:hover, .owl-dot.active{
   background: black!important;
