@@ -92,71 +92,71 @@ nav img{
 #side2 {
   background: yellow;
 }
-
-#side2 .carousel .kort{
-  background: pink;
-  border-radius: 25px;
-  padding: 25px 35px;
-  text-align: center;
-  transition: all 0.3s ease;
-}
-#side2 .carousel .kort img{
-  height: 150px;
-  width: 150px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 5px solid red;
-  transition: all 0.3s ease;
-}
-#side2 .carousel .kort .box{
+#side2 .box {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
+  min-height: 100vh;
 }
-#side2 .carousel .kort .tekst{
-  font-size: 25px;
-  font-weight: 500;
-  margin: 10px 0 7px 0;
+#side2 h2{
+  display: flex;
+  text-align: center;
 }
-#side2 .carousel .kort:hover{
+.wrapper {
+  width: 100%;
+}
+
+.wrapper .carousel{
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 30px;
+}
+
+.carousel .card {
+  line-height: 250px;
+  text-align: center;
+  color: white;
+  font-size: 90px;
+  font-weight: 600;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
+}
+.carousel .card-1{
+  background: red;
+}
+.carousel .card-2{
   background: blue;
 }
-#side2 .carousel .kort:hover img{
-  border-color: skyblue;
+.carousel .card-3{
+  background: green;
 }
-#side2 .carousel .kort:hover .box{
-transform: scale(1.05);
+.carousel .card-4{
+  background: purple;
 }
-.owl-dots{
-  text-align: center;
-  margin-top: 20px;
+.carousel .card-5{
+  background: orange;
 }
-.owl-dot{
-  height: 20px;
-  width: 20px;
-  margin: 0 5px;
-  outline: none!important;
-  border-radius: 50%;
-  border: 2px solid blue!important;
-  transition: all 0.3s ease;
-  margin-bottom: 100px;
-}
-.owl-dot.active{
-  width: 35px;
-  border-radius: 14px;
-}
-.owl-dot.active,
-.owl-dot.hover{
-  background: blue!important;
-}
-
 /* sektion 3 */
 #side3{
   background: skyblue;
 }
-
+.owl-dots{
+  text-align: center;
+  margin-top: 40px;
+}
+.owl-dot{
+  height: 15px;
+  width: 45px;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
+  margin: 0 5px;
+  border: 2px solid black!important;
+  transition: all 0.3s ease;
+}
+.owl-dot:hover, .owl-dot.active{
+  background: black!important;
+}
 #side3 .about-content .venstre img {
  height: 400px;
  width: 400px;
