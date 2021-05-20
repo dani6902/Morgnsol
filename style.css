@@ -3,16 +3,12 @@
   padding: 0;
   text-decoration: 0;
 }
-<<<<<<< HEAD
 
 html{
   scroll-behavior: smooth;
 }
 
 h2 {
-=======
-h2{
->>>>>>> parent of acbc5cf (gallery i bund mm.)
   font-family: itc-avant-garde-gothic-pro, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -102,9 +98,7 @@ min-height: 500px;
   text-align: center;
   padding: 75px;
 }
-/* sektion 2 */
 
-<<<<<<< HEAD
 /*sektion 2*/
 #side2{
   background: #f3f8f9;
@@ -141,23 +135,16 @@ min-height: 500px;
 /* sektion 3 */
 
 #side3 {
-=======
-#side2 {
->>>>>>> parent of acbc5cf (gallery i bund mm.)
   background: #fff;
 }
   .slideboxtekst{
     margin: auto;
     width: 10%;
-    margin-top: 10px;
+    margin-top: 25px;
   }
 }
-<<<<<<< HEAD
-#side3 .box {
 
-=======
->>>>>>> parent of acbc5cf (gallery i bund mm.)
-#side2 .box {
+#side3 .box {
   display: flex;
   align-items: center;
   min-height: 100vh;
@@ -172,26 +159,18 @@ min-height: 500px;
   margin: auto;
   padding: 0 30px;
 }
-<<<<<<< HEAD
 
-
-.carousel .card .cardpic {
-=======
 .carousel .card .cardpic{
->>>>>>> parent of acbc5cf (gallery i bund mm.)
   padding-top: 40px;
   padding-bottom: 10px;
 }
 .carousel .card {
-<<<<<<< HEAD
   margin: 20px 0;
   border-radius: 40px;
   height: 500px;
 }
 
 .carousel .card p{
-=======
->>>>>>> parent of acbc5cf (gallery i bund mm.)
   text-align: center;
   color: white;
   font-size: 12hz;
@@ -202,7 +181,6 @@ min-height: 500px;
   height: 500px;
 }
 .carousel .card-1{
-<<<<<<< HEAD
   background: #98c3b5;
 }
 .carousel .card-2{
@@ -218,33 +196,7 @@ min-height: 500px;
   background: #71acb8;
 }
 
-.carousel .card-5 {
-=======
-  background: red;
-}
-.carousel .card-2{
-  background: blue;
-}
-.carousel .card-3{
-  background: green;
-}
-.carousel .card-4{
-  background: purple;
-}
-.carousel .card-5{
->>>>>>> parent of acbc5cf (gallery i bund mm.)
-  background: orange;
-}
-/* sektion 3 */
-#side3{
-  background: skyblue;
-}
-<<<<<<< HEAD
-
 .owl-dots {
-=======
-.owl-dots{
->>>>>>> parent of acbc5cf (gallery i bund mm.)
   text-align: center;
   margin-top: 40px;
 }
@@ -262,7 +214,6 @@ min-height: 500px;
 .owl-dot:hover, .owl-dot.active{
   background: black!important;
 }
-<<<<<<< HEAD
 
 /*side 4*/
 
@@ -270,35 +221,25 @@ min-height: 500px;
   background: skyblue;
 }
 #side4 .about-content .venstre img {
-=======
-#side3 .about-content .venstre img {
->>>>>>> parent of acbc5cf (gallery i bund mm.)
  height: 400px;
  width: 400px;
  object-fit: cover;
  border-radius: 6px;
 }
-<<<<<<< HEAD
+
 #side4 .about-content{
-}
-#side3 .about-content .venstre img {
   height: 400px;
   width: 400px;
   object-fit: cover;
   border-radius: 6px;
 }
 
-#side3 .about-content {
-=======
-#side3 .about-content{
->>>>>>> parent of acbc5cf (gallery i bund mm.)
+#side4 .about-content {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
 #side4 .about-content .venstre {
   width: 45%;
 }
@@ -381,8 +322,7 @@ min-height: 500px;
     padding: 1rem 0;
   }
 
-=======
->>>>>>> parent of acbc5cf (gallery i bund mm.)
+
 #side3 .about-content .venstre {
   width: 45%;
 }
