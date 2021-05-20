@@ -3,15 +3,12 @@
   padding: 0;
   text-decoration: 0;
 }
-<<<<<<< HEAD
+
 html{
   scroll-behavior: smooth;
 }
-h2{
-=======
 
 h2 {
->>>>>>> 02c3b24b92e0c12997691048c7c569f2d5217454
   font-family: itc-avant-garde-gothic-pro, sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -116,7 +113,6 @@ section {
   padding: 75px;
 }
 
-<<<<<<< HEAD
 /*sektion 2*/
 #side2{
   background: #f3f8f9;
@@ -164,7 +160,6 @@ section {
 #side3 .box {
 
 #side2 .box {
->>>>>>> 02c3b24b92e0c12997691048c7c569f2d5217454
   display: flex;
   align-items: center;
   min-height: 100vh;
@@ -180,11 +175,10 @@ section {
   margin: auto;
   padding: 0 30px;
 }
-<<<<<<< HEAD
+
 
 .carousel .card .cardpic {
   padding-top: 40px;
->>>>>>> 02c3b24b92e0c12997691048c7c569f2d5217454
   padding-bottom: 10px;
   border-radius: 40px 40px 5px 5px;
 }
@@ -194,7 +188,7 @@ section {
   border-radius: 40px;
   height: 500px;
 }
-<<<<<<< HEAD
+
 .carousel .card p{
   text-align: center;
   color: white;
@@ -225,8 +219,6 @@ section {
   background: #71acb8;
 }
 
-.owl-dots{
-
 .carousel .card-5 {
   background: orange;
 }
@@ -237,7 +229,6 @@ section {
 }
 
 .owl-dots {
->>>>>>> 02c3b24b92e0c12997691048c7c569f2d5217454
   text-align: center;
   margin-top: 40px;
 }
@@ -258,7 +249,6 @@ section {
   background: black !important;
 }
 
-<<<<<<< HEAD
 /*side 4*/
 
 #side4{
@@ -271,7 +261,7 @@ section {
  border-radius: 6px;
 }
 #side4 .about-content{
-=======
+}
 #side3 .about-content .venstre img {
   height: 400px;
   width: 400px;
@@ -280,7 +270,6 @@ section {
 }
 
 #side3 .about-content {
->>>>>>> 02c3b24b92e0c12997691048c7c569f2d5217454
   display: flex;
   flex-wrap: wrap;
   align-items: center;
