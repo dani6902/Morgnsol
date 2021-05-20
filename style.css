@@ -162,18 +162,6 @@ section {
   }
 }
 #side3 .box {
-=======
-/* sektion 2 */
-#side2 {
-  background: #fff;
-}
-
-.slideboxtekst {
-  margin: auto;
-  width: 10%;
-  margin-top: 10px;
-}
-}
 
 #side2 .box {
 >>>>>>> 02c3b24b92e0c12997691048c7c569f2d5217454
@@ -193,8 +181,6 @@ section {
   padding: 0 30px;
 }
 <<<<<<< HEAD
-.carousel .card .cardpic{
-=======
 
 .carousel .card .cardpic {
   padding-top: 40px;
@@ -240,23 +226,6 @@ section {
 }
 
 .owl-dots{
-=======
-
-.carousel .card-1 {
-  background: red;
-}
-
-.carousel .card-2 {
-  background: blue;
-}
-
-.carousel .card-3 {
-  background: green;
-}
-
-.carousel .card-4 {
-  background: purple;
-}
 
 .carousel .card-5 {
   background: orange;
@@ -399,7 +368,6 @@ section {
     display: block;
     padding: 1rem 0;
   }
-=======
 
 #side3 .about-content .venstre {
   width: 45%;
