@@ -158,7 +158,6 @@ min-height: 500px;
   margin: auto;
   padding: 0 30px;
 }
-
 .carousel .card .cardpic{
   padding-bottom: 10px;
   border-radius: 40px 40px 15px 15px;
@@ -302,11 +301,12 @@ min-height: 500px;
 .img-content {
   display: none;
 }
-@supports (display: grid) {
-  .gallery .grid {
-    grid-gap: 1rem;
+#side5 .grid {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: auto auto auto;
   }
-}
+
 @media screen and (max-width: 800px) {
   img:hover {
     transform: none;
@@ -320,6 +320,7 @@ min-height: 500px;
     }
 
   .img-content {
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: 1rem 0;
   }
