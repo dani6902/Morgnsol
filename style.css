@@ -194,7 +194,9 @@ min-height: 500px;
 .carousel .card-5{
   background: #71acb8;
 }
-
+.carousel .card-6{
+  background: #e393b3;
+}
 .owl-dots {
   text-align: center;
   margin-top: 40px;
@@ -217,13 +219,13 @@ min-height: 500px;
 /*side 4*/
 
 #side4{
-  background: skyblue;
+ background: rgb(238,245,243);
+ background: linear-gradient(180deg, rgba(238,245,243,1) 0%, rgba(255,255,255,1) 100%);
 }
 #side4 .about-content .hojre img {
- height: 400px;
+ height: 600px;
  width: 400px;
  object-fit: cover;
- border-radius: 6px;
  margin-left: 5%;
 }
 #side4 .about-content {
@@ -236,12 +238,8 @@ min-height: 500px;
 }
 #side4 .about-content .hojre {
   width: 45%;
-  margin-bottom: 10%;
-  margin-top: 10%;
 }
-#side4 .about-content .hojre img{
-  margin-bottom: 10%;
-}
+
 #side4 .about-content .venstre .tekstommig {
  font-size: 25px;
  font-weight: 600;
@@ -256,6 +254,10 @@ min-height: 500px;
 #side5{
   padding: 0 0 4rem 0;
   box-sizing: border-box;
+}
+#side5 h2{
+  text-align: center;
+  margin-bottom: 10px;
 }
 .img-container {
   width: 100%;
