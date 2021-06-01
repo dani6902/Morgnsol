@@ -6,6 +6,7 @@
 
 html{
   scroll-behavior: smooth;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
 }
 
 h2 {
@@ -109,17 +110,21 @@ min-height: 200px;
   background: #71acb8;
   padding-bottom: 110px;
   padding-top: 110px;
-  color: #fcf7f9;
 }
 
-#sideintro h2,p{
+#sideintro .introtekst{
   text-align: center;
   margin-left: 25%;
   margin-right: 25%;
   margin-bottom: 1%;
   line-height: 30px;
+  color: #fcf7f9;
 }
-
+@media (min-width: 800px) {
+  .introtekst{
+  font-size: 12hz;
+  }
+}
 /*sektion 2*/
 #side2{
   background: #f3f8f9;
@@ -143,22 +148,28 @@ min-height: 200px;
   margin: 0 auto;
   display: grid;
   grid-gap: 1rem;
-}
-
-@media (min-width: 800px) {
-  .cards { grid-template-columns: repeat(2, 1fr); }
-  }
-
-.wordpressvideo{
+  position: relative;
   width: 100%;
-  height: auto;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.grid-item-right iframe{
+  position: absolute;
+  top:0;
+  right:0;
+  width: 50%;
+  height: 50%;
 }
 
 /* side med farver */
 #sidefarver {
   background: #f3f8f9;
 }
-
+#sidefarver .grid{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center;
+}
 #sidefarver .farve{
   margin: 10px;
   width: 100px;
@@ -205,7 +216,6 @@ min-height: 200px;
 
 .carousel .card p, h2{
   text-align: center;
-  color: white;
   margin: 5px 20px 0px 20px;
 }
 .carousel .card .cardoverskrift{
@@ -249,6 +259,9 @@ min-height: 200px;
   background: black!important;
 }
 
+@media (min-width: 800px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+  }
 /*side 4*/
 
 #side4{
@@ -261,40 +274,13 @@ min-height: 200px;
  object-fit: cover;
  margin-left: 5%;
 }
-#side4 .about-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  margin-right: 10%;
-  margin-left: 10%;
-}
-#side4 .about-content p{
-  text-align: left;
-}
-#side4 .about-content .hojre {
-  width: 45%;
-}
-#side4 .about-content .venstre {
-  width: 99%;
-}
-#side4 .about-content .venstre .overskriftarbejde {
- font-size: 25px;
- font-weight: 600;
- margin-bottom: 10px;
-}
-@media query (max-width: 800px){
-  .about-content{
-    flex-direction: column;
-  }
-}
+
 /* sektion 5 med gallery*/
 #side5{
   padding: 0 0 4rem 0;
   box-sizing: border-box;
 }
 #side5 h2{
-  text-align: center;
   margin-bottom: 25px;
 }
 .img-container {
@@ -337,6 +323,7 @@ min-height: 200px;
 .category {
   font-size: 1rem;
   color: gray;
+  max-width: 500px;
 }
 .img-content {
   display: none;
