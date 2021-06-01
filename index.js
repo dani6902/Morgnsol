@@ -23,11 +23,11 @@ $(".carousel").owlCarousel({
       items: 1,
       nav: false
     },
-    800:{
+    850:{
       items: 2,
       nav: false
     },
-    1200:{
+    1000:{
       items: 3,
       nav: false
     }

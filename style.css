@@ -135,7 +135,7 @@ min-height: 200px;
 }
 #sideintro .introtekst h2{
   font-size: 5vh;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 #sideintro .introtekst{
   text-align: center;
@@ -166,7 +166,7 @@ min-height: 200px;
 /*sektion 2*/
 #side2{
   background: #f3f8f9;
-  height: 500px;
+  height: 600px;
 }
 #side2 h2{
   text-align: center;
@@ -224,9 +224,9 @@ min-height: 200px;
 #sidefarver {
   background: #FFF;
 }
-#sidefarver h2{
+#sidefarver .kopifarve{
   text-align: center;
-  font-size: 5vh;
+  font-size: 3vh;
   margin-top: 5%;
   margin-bottom: 5%;
 }
@@ -320,7 +320,7 @@ min-height: 200px;
 
 .wrapper .carousel{
   margin: auto;
-  padding: 0 30px;
+  padding: 0 15px;
 }
 .carousel .card .cardpic{
   padding-bottom: 10px;
@@ -331,6 +331,7 @@ min-height: 200px;
   margin: 20px 0;
   border-radius: 40px;
   height: 500px;
+  width: 500px;
 }
 
 #side3 .carousel .card p{
