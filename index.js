@@ -12,12 +12,29 @@ if (top >= 50){
 }
 
 
+function copyColor(el) {
+  var copyTextarea = el.childNodes[1]
+
+  copyTextarea.focus();
+  copyTextarea.select()
+
+  try {
+    var successful = document.execCommand('copy');
+    var msg = successful ? 'successful' : 'unsuccessful';
+    alert('Farve kopiret');
+    console.log('Copying text command was ' + msg);
+  } catch (err) {
+    console.log('Oops, unable to copy');
+  }
+}
+
 $(".carousel").owlCarousel({
   margin: 10,
   loop: true,
   autoplay: true,
   autoplayTimeout: 4000,
   autoplayHoverPause: true,
+  responsiveClass: true,
   responsive: {
     0:{
       items: 1,

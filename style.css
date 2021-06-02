@@ -246,6 +246,43 @@ min-height: 200px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
 
 }
+
+.js-textareacopybtn{
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.js-copytextarea{
+    resize: none;
+  pointer-events: none;
+  background-color: transparent;
+  border: none;
+}
+
+.js-copytextarea:focus{
+  pointer-events: none;
+  background-color: transparent;
+  border: none;
+  outline:none;
+}
+
+.js-copytextarea:focus-visible{
+  pointer-events: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+
+}
+
+.js-copytextarea:active{
+  pointer-events: none;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+
 #sidefarver .en{
   background: #eda543;
   border-radius: 15px 15px 0px 0px;
