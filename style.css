@@ -224,27 +224,32 @@ min-height: 200px;
 #sidefarver {
   background: #FFF;
 }
-#sidefarver .kopifarve{
+#sidefarver h2{
   text-align: center;
-  font-size: 3vh;
+  font-size: 5vh;
   margin-top: 5%;
   margin-bottom: 5%;
 }
 #sidefarver .grid{
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-bottom: 25px;
+}
+#sidefarver .farvepanel{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  flex: 15%;
 }
 #sidefarver .farve{
   margin-left: 5px;
   margin-right: 5px;
-  padding-top: 50px;
+  padding-top: 75px;
   text-align: center;
-  padding-bottom: 50px;
-  height: 50px;
+  padding-bottom: 75px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5);
-
 }
 
 .js-textareacopybtn{
@@ -254,10 +259,15 @@ min-height: 200px;
 }
 
 .js-copytextarea{
-    resize: none;
+  resize: none;
   pointer-events: none;
   background-color: transparent;
   border: none;
+  text-align: center;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.5vh;
 }
 
 .js-copytextarea:focus{
@@ -337,12 +347,11 @@ min-height: 200px;
   background: linear-gradient(180deg, rgba(238,245,243,1) 0%, rgba(255,255,255,1) 100%);
   background-attachment: fixed;
 }
-  .slideboxtekst{
+.slideboxtekst{
     text-align: center;
     font-size: 5vh;
     margin-top: 5%;
     margin-bottom: 5%;
-  }
 }
 
 #side3 .box {
@@ -356,8 +365,9 @@ min-height: 200px;
 }
 
 .wrapper .carousel{
+  max-width: 1200px;
   margin: auto;
-  padding: 0 15px;
+  padding: 0 30px;
 }
 .carousel .card .cardpic{
   padding-bottom: 10px;
@@ -368,9 +378,12 @@ min-height: 200px;
   margin: 20px 0;
   border-radius: 40px;
   height: 500px;
-  width: 500px;
 }
-
+@media (max-width: 600px) {
+  .carousel .card p{
+    font-size: 50vh;
+  }
+}
 #side3 .carousel .card p{
   text-align: center;
   margin: 5px 20px 0px 20px;

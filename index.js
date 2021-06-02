@@ -40,7 +40,7 @@ $(".carousel").owlCarousel({
       items: 1,
       nav: false
     },
-    850:{
+    600:{
       items: 2,
       nav: false
     },
