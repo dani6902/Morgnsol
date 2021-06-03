@@ -230,6 +230,12 @@ min-height: 200px;
   margin-top: 5%;
   margin-bottom: 5%;
 }
+#sidefarver h3{
+  text-align: center;
+  font-size: 3vh;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 #sidefarver .grid{
   display: flex;
   flex-wrap: wrap;
@@ -267,7 +273,7 @@ min-height: 200px;
   font-family: itc-avant-garde-gothic-pro, sans-serif;
   font-weight: 100;
   font-style: normal;
-  font-size: 1.5vh;
+  font-size: 18px;
 }
 
 .js-copytextarea:focus{
@@ -410,6 +416,9 @@ min-height: 200px;
 }
 .carousel .card-6{
   background: #e393b3;
+}
+.carosel .card-6 img{
+object-fit: contain;
 }
 .owl-dots {
   text-align: center;
